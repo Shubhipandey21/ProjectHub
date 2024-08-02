@@ -1,5 +1,8 @@
+import Contributors from "@/components/Contributors";
 import FeaturedProjects from "@/components/FeaturedProjects";
+import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
+import OpensourceEvents from "@/components/OpensourceEvents";
 import ProjectTestimonials from "@/components/TestimonialCards";
 import WhyChooseUs from "@/components/WhyChooseUs";
 
@@ -12,6 +15,9 @@ export default function Home() {
     <FeaturedProjects />
     <WhyChooseUs />
     <ProjectTestimonials />
+    <OpensourceEvents />
+    <Contributors/>
+    <Footer />
    </main>
   );
 }

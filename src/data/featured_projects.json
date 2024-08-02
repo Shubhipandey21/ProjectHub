@@ -1,0 +1,94 @@
+{
+    "projects": [
+      {
+        "id": 1,
+        "title": "Artify",
+        "slug": "artify",
+        "link": "https://github.com/Shubhipandey21/Artify",
+        "description": "Artify is an online drawing tool that leverages WebSockets to enable real-time collaboration among multiple users, making creative projects more interactive and engaging",
+        "price": 99.99,
+        "contributor": "Shubhi Pandey",
+        "isFeatured": true,
+        "image": "/courses/guitar.jpg" 
+      },
+      {
+        "id": 2,
+        "title": "VideoSphere",
+        "slug": "videosphere",
+        "link": "https://github.com/Shubhipandey21/VideoSphere",
+        "description": "This website allows you to seamlessly video chat with your friends, bringing you closer together no matter where you are",
+        "price": 109.99,
+        "contributor": "Shubhi Pandey",
+        "isFeatured": true,
+        "image": "/courses/piano.jpg" 
+      },
+      {
+        "id": 3,
+        "title": "PocketNotes",
+        "slug": "pocketnotes",
+        "link": "https://github.com/Shubhipandey21/pocketNotes",
+        "description": "PockeNotes is an application that lets you create groups for writing and sharing notes, making collaboration and organization easy and efficient",
+        "price": 119.99,
+        "contributor": "Shubhi Pandey",
+        "isFeatured": true,
+        "image": "/courses/vocalist.jpg" 
+      },
+      {
+        "id": 4,
+        "title": "Safarnama",
+        "slug": "safarnama",
+        "link": "https://github.com/Shubhipandey21/Safarnama",
+        "description": "Safarnama is a travel blog website designed to share your adventures and inspire others with your travel stories and experiences.",
+        "price": 129.99,
+        "contributor": "Shubhi Pandey , Suryakant Yadav",
+        "isFeatured": true,
+        "image": "/courses/drumming.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Mausam",
+        "slug": "mausam",
+        "link": "https://github.com/Shubhipandey21/Mausam",
+        "description": "The weather app provides real-time weather updates and forecasts for locations worldwide",
+        "price": 139.99,
+        "contributor": "Shubhi Pandey",
+        "isFeatured": true,
+        "image": "/courses/jazz.jpg"
+      },
+      {
+        "id": 6,
+        "title": "BanaJara",
+        "slug": "banjara",
+        "link": "https://github.com/Shubhipandey21/BanJARA",
+        "description": "Banajara is a website dedicated to helping you find the perfect travel destinations, making your trip planning seamless and enjoyable.",
+        "price": 149.99,
+        "contributor": "Shubhi Pandey",
+        "isFeatured": false,
+        "image": "/courses/music-prod.jpg"
+      },
+      {
+        "id": 7,
+        "title": "VehicleLocation",
+        "slug": "vehiclelocation",
+        "link": "https://github.com/Shubhipandey21/VehicleLocation",
+        "description": "VehicleLocation is an application designed to track vehicles in real-time, providing accurate and up-to-date location information for enhanced monitoring and management.",
+        "price": 159.99,
+        "contributor": "Shubhi Pandey",
+        "isFeatured": false,
+        "image": "/courses/song-writing.jpg"
+      },
+      {
+        "id": 8,
+        "title": "ShopXpress",
+        "slug": "shopxpress",
+        "link":"https://github.com/Shubhipandey21/ShopXpress",
+        "description": "ShopXpress is an e-commerce website whcih is fullstack implementation in MongoDB, Expressjs, React/Redux, Nodejs..",
+        "price": 169.99,
+        "instructor": "Shubham Jaiswal",
+        "isFeatured": true,
+        "image": "/courses/music-prod.jpg"
+      }
+      
+    ]
+  }
+  
