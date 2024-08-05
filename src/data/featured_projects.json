@@ -9,7 +9,7 @@
         "price": 99.99,
         "contributor": "Shubhi Pandey",
         "isFeatured": true,
-        "image": "/courses/guitar.jpg" 
+        "image": "/ProjectImages/Artify.png" 
       },
       {
         "id": 2,
@@ -20,7 +20,7 @@
         "price": 109.99,
         "contributor": "Shubhi Pandey",
         "isFeatured": true,
-        "image": "/courses/piano.jpg" 
+        "image": "/ProjectImages/VideoSphere (2).png" 
       },
       {
         "id": 3,
@@ -31,7 +31,7 @@
         "price": 119.99,
         "contributor": "Shubhi Pandey",
         "isFeatured": true,
-        "image": "/courses/vocalist.jpg" 
+        "image": "/ProjectImages/PocketNotes.png" 
       },
       {
         "id": 4,
@@ -42,7 +42,7 @@
         "price": 129.99,
         "contributor": "Shubhi Pandey , Suryakant Yadav",
         "isFeatured": true,
-        "image": "/courses/drumming.jpg"
+        "image": "/ProjectImages/Safarnama.png"
       },
       {
         "id": 5,
@@ -53,7 +53,7 @@
         "price": 139.99,
         "contributor": "Shubhi Pandey",
         "isFeatured": true,
-        "image": "/courses/jazz.jpg"
+        "image": "/ProjectImages/Mausam.png"
       },
       {
         "id": 6,
@@ -64,7 +64,7 @@
         "price": 149.99,
         "contributor": "Shubhi Pandey",
         "isFeatured": false,
-        "image": "/courses/music-prod.jpg"
+        "image": "/ProjectImages/BanJARA.png"
       },
       {
         "id": 7,
@@ -75,7 +75,7 @@
         "price": 159.99,
         "contributor": "Shubhi Pandey",
         "isFeatured": false,
-        "image": "/courses/song-writing.jpg"
+        "image": "/ProjectImages/VehicleLocation.png"
       },
       {
         "id": 8,
@@ -86,7 +86,7 @@
         "price": 169.99,
         "instructor": "Shubham Jaiswal",
         "isFeatured": true,
-        "image": "/courses/music-prod.jpg"
+        "image": "/ProjectImages/ShopXpress.png"
       }
       
     ]
