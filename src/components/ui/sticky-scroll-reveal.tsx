@@ -49,10 +49,9 @@ export const StickyScroll: React.FC<{
   const [backgroundGradient, setBackgroundGradient] = useState(
     linearGradients[0]
   );
-
   useEffect(() => {
     setBackgroundGradient(linearGradients[activeCard % linearGradients.length]);
-  }, [activeCard]);
+  }, [activeCard, linearGradients]);
 
   return (
     <motion.div

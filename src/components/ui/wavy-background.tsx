@@ -1,6 +1,6 @@
 "use client";
 import { cn } from "@/lib/utils";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState, useCallback } from "react";
 import { createNoise3D } from "simplex-noise";
 
 interface WavyBackgroundProps {
@@ -36,7 +36,7 @@ export const WavyBackground: React.FC<WavyBackgroundProps> = ({
     return speed === "fast" ? 0.002 : 0.001;
   };
 
-  const init = () => {
+  const init = useCallback(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
     const ctx = canvas.getContext("2d");
@@ -86,7 +86,7 @@ export const WavyBackground: React.FC<WavyBackgroundProps> = ({
     };
 
     render();
-  };
+  }, [blur, colors, waveWidth, waveOpacity, backgroundFill, noise, speed]);
 
   useEffect(() => {
     init();
@@ -98,7 +98,7 @@ export const WavyBackground: React.FC<WavyBackgroundProps> = ({
         }
       }
     };
-  }, []);
+  }, [init]);
 
   useEffect(() => {
     setIsSafari(
